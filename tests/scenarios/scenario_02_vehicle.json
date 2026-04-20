@@ -1,0 +1,13 @@
+{
+  "name": "Vehicle Detection Scenario",
+  "input": {
+    "detections": [
+      {"object": "car", "confidence": 0.88},
+      {"object": "truck", "confidence": 0.75}
+    ]
+  },
+  "expected": {
+    "status": "ok",
+    "event_type": "VEHICLE_DETECTED"
+  }
+}

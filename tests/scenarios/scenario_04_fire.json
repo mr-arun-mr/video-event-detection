@@ -1,0 +1,12 @@
+{
+  "name": "Fire Detection Scenario",
+  "input": {
+    "detections": [
+      {"object": "fire", "confidence": 0.87}
+    ]
+  },
+  "expected": {
+    "status": "ok",
+    "event_type": "FIRE_DETECTED"
+  }
+}

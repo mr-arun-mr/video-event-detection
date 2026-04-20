@@ -1,0 +1,14 @@
+{
+  "name": "Multiple Objects Scenario",
+  "input": {
+    "detections": [
+      {"object": "person", "confidence": 0.91},
+      {"object": "car", "confidence": 0.85},
+      {"object": "bus", "confidence": 0.79}
+    ]
+  },
+  "expected": {
+    "status": "ok",
+    "event_count": 3
+  }
+}

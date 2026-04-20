@@ -1,0 +1,12 @@
+{
+  "name": "Human Detection Scenario",
+  "input": {
+    "detections": [
+      {"object": "person", "confidence": 0.92}
+    ]
+  },
+  "expected": {
+    "status": "ok",
+    "event_type": "HUMAN_DETECTED"
+  }
+}
